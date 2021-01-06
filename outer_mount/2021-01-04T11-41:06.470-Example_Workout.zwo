@@ -1,0 +1,15 @@
+<workout_file>
+	<author>Max Reihn</author>
+	<name>Example_Workout</name>
+	<description>Put anything you like in here!</description>
+	<sportType>bike</sportType>
+	<tags>
+        <tag name="INTERVALS"/>
+    </tags>
+    <workout>
+		<IntervalsT Repeat="5" OnDuration="45" OffDuration="300" OnPower="1.0" OffPower="0.65"/>
+		<SteadyState Duration="300" Power="0.5">
+			<textevent timeoffset="0" message="let the games begin"/>
+		</SteadyState>
+	</workout>
+</workout_file>
